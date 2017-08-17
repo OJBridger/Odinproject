@@ -5,4 +5,4 @@
         The Front End
             HTML and CSS Basics
                 Assignment 3.
-                    [x] Build the Android Logo
+                    Build the Android Logo [X]
