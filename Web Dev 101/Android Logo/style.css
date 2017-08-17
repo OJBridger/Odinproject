@@ -1,0 +1,80 @@
+/** All Divs**/
+div {
+	margin: 0;
+	padding: 0;
+}
+/** All Divs within Divs**/
+div div { 
+	background: #A4CA39;
+	position: relative;
+}
+/** Android **/
+.android {
+	height: 404px;
+	width: 334px;
+	margin: 100px auto;
+}
+/** Head **/
+.head {
+	width: 200px;
+	height: 100px;
+	top: 32px;
+	border-radius: 110px 110px 0 0;
+}
+/** Eyes **/
+.l_eye, .r_eye {
+	background: #fff;;
+	height: 20px;
+	width: 20px;
+	position: absolute;
+	top: 42px;
+	border-radius: 10px;
+}
+.l_eye {
+	right: 50px;
+}
+.r_eye {
+	left: 50px;
+}
+/** Antenna **/
+.l_ant, .r_ant {
+	width: 6px;
+	height: 50px;
+	position: absolute;
+	top: -34px;
+	border-radius: 3px;
+}
+.l_ant {
+	left: 50px;
+	transform: rotate(-30deg);
+}
+.r_ant {
+	right: 50px;
+	transform: rotate(30deg);
+}
+.body {
+	width: 220px;
+	height: 184px;
+	top: 40px;
+	border-radius: 0 0 25px 25px;
+}
+
+.l_arm, .r_arm, .l_leg, .r_leg {
+	width: 50px;
+	position: absolute;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
