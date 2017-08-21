@@ -1,6 +1,6 @@
 # Odinproject
 
-Projects:
+## Projects:
     Web Dev 101
         The Front End
             HTML and CSS Basics
