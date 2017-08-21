@@ -1,8 +1,8 @@
 # Odinproject
 
-## Projects:
+## Projects
 
-## Web Dev 101
+### Web Dev 101
 
 **The Front End**
 
