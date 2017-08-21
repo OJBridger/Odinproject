@@ -2,9 +2,9 @@
 
 ## Projects:
 
-**Web Dev 101**
+## Web Dev 101
 
-1. The Front End
+**The Front End**
 
     i. HTML and CSS Basics
     
