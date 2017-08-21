@@ -12,7 +12,7 @@
         
             Build the Android Logo [X]  
             
-    2. Project HTML/CSS:
+    1. Project HTML/CSS:
     
             Build the Google Home Page []
             
