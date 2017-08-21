@@ -8,7 +8,7 @@
 
     i. HTML and CSS Basics
     
-        . Assignment 3
+        Assignment 3
         
             Build the Android Logo [X]  
             
