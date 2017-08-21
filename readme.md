@@ -1,10 +1,14 @@
 # Odinproject
 
 ## Projects:
-Web Dev 101
-    The Front End
+
+### Web Dev 101
+1. The Front End
+
         HTML and CSS Basics
+        
             Assignment 3
+            
                 Build the Android Logo [X]
                     
         Project HTML/CSS:
