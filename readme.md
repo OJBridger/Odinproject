@@ -8,6 +8,6 @@
         1. Assignment 3
             - Build the Android Logo [X]
                     
-        Project HTML/CSS:
-            Build the Google Home Page []            
-            Build the Google Results Page []
+    2. Project HTML/CSS:
+            - Build the Google Home Page []            
+            - Build the Google Results Page []
