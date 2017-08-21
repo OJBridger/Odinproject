@@ -6,13 +6,13 @@
 
 1. The Front End
 
-    1. HTML and CSS Basics
+    i. HTML and CSS Basics
     
         . Assignment 3
         
             Build the Android Logo [X]  
             
-    1. Project HTML/CSS:
+    ii. Project HTML/CSS:
     
             Build the Google Home Page []
             
