@@ -2,7 +2,7 @@
 
 ## Projects:
 
-### Web Dev 101
+**Web Dev 101**
 1. The Front End
     1. HTML and CSS Basics
         . Assignment 3
