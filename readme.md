@@ -10,7 +10,7 @@
     
         . Assignment 3
         
-              Build the Android Logo [X]  
+          Build the Android Logo [X]  
             
     2. Project HTML/CSS:
             - Build the Google Home Page []            
