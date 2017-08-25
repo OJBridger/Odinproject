@@ -1,0 +1,42 @@
+* {
+	border: red 1px dashed !important
+}
+
+.header {
+	height: 50px;
+	width: 100%;
+	background-color: grey;
+	position: relative;
+	margin-top: 0, 0;
+}
+
+.header-info {
+	position: relative;
+	text-align: right;
+	display: flex;
+	float: right;
+}
+
+h4 {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.google {
+	height: 92px;
+	width: 290px;
+	background-image: url("https://ohscurrent.org/wp-content/uploads/2015/09/domus-01-google-900x436.jpg");
+	background-size: 290px;
+	background-repeat: no-repeat;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 200px;
+}
+
+#location {
+	color: blue;
+	font-size: 24px;
+	float: right;
+	padding-top: 41px;
+	padding-right: 39px;
+}
