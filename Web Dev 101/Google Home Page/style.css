@@ -6,8 +6,9 @@
 	height: 50px;
 	width: 100%;
 	background-color: grey;
-	position: relative;
-	margin-top: 0, 0;
+	position: fixed;
+	margin-left: -10px;
+	top: 0px;	
 }
 
 .header-info {
@@ -18,8 +19,8 @@
 }
 
 h4 {
-	margin-left: 5px;
-	margin-right: 5px;
+	margin-left: 10px;
+	margin-right: 10px;
 }
 
 .google {
@@ -49,7 +50,7 @@ h4 {
 	padding-top: 24px;
 }
 
-.buttons {
+.buttons {	
 	position: relative;
 	text-align: center;
 	margin-left: auto;
@@ -58,9 +59,45 @@ h4 {
 }
 
 .bar {
-	height: 35px;
-	width: 450px;
+	height: 43px;
+	width: 535px;
 }
+
+#lucky, #search {
+	font-weight: bold;
+	font-size: 12px;
+	letter-spacing: 1px
+	background-color: lightgrey;
+	height: 32px;
+	width: 130px;
+}
+
+.footer {
+	position: fixed;
+	height: 45px;
+	width: 100%;
+	background-color: grey;
+	bottom: 0px;
+	margin-left: -10px;
+	margin-bottom: 0px;	
+}
+
+.footer-info-left {
+	position: relative;
+	text-align: right;
+	display: flex;
+	float: left;
+	bottom: 10px;
+}
+
+.footer-info-right {
+	position: relative;
+	text-align: right;
+	display: flex;
+	float: right;
+	bottom: 10px;	
+}
+
 
 
 
