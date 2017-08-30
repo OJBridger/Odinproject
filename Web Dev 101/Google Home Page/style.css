@@ -5,7 +5,7 @@
 .header {
 	height: 50px;
 	width: 100%;
-	background-color: grey;
+	background-color: #fff;
 	position: fixed;
 	margin-left: -10px;
 	top: 0px;	
@@ -35,11 +35,12 @@ h4 {
 }
 
 #location {
-	color: blue;
-	font-size: 24px;
+	color: #4285f4;
+	font-size: 16px;
 	float: right;
-	padding-top: 41px;
-	padding-right: 39px;
+	padding-top: 50px;
+	padding-right: 50px;
+	font-family: roboto-regular, arial, sans-serif;
 }
 
 .search-bar {
@@ -70,13 +71,14 @@ h4 {
 	background-color: lightgrey;
 	height: 32px;
 	width: 130px;
+	font-family: roboto-regular, arial, sans-serif;
 }
 
 .footer {
 	position: fixed;
 	height: 45px;
 	width: 100%;
-	background-color: grey;
+	background-color: #f2f2f2;
 	bottom: 0px;
 	margin-left: -10px;
 	margin-bottom: 0px;	
