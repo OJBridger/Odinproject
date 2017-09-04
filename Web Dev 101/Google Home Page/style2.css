@@ -19,7 +19,7 @@
 	top: 15px;
 }
 
-a {
+.h-inf {
 	margin-left: 10px;
 	margin-right: 10px;
 	font-family: arial,sans-serif;
@@ -36,7 +36,7 @@ a {
 	background-repeat: no-repeat;
 	float: left;
 	position: absolute;
-	top: -177px;
+	top: -176px;
 	margin-left: 10px;
 }
 
@@ -52,7 +52,7 @@ a {
 .search-bar {
 	position: absolute;
 	text-align: center;
-	padding-top: 12px;
+	top: -3px;
 	padding-left: 175px;
 }
 
@@ -66,7 +66,7 @@ a {
 
 .bar {
 	height: 41px;
-	width: 535px;
+	width: 600px;
 }
 
 #lucky, #search {
@@ -105,6 +105,30 @@ a {
 	bottom: -15px;	
 }
 
+.search-info {
+	position: relative;
+	text-align:;
+	display:;
+	float:;
+	top: 90px;
+	left: 185px;	
+}
 
+.s-inf {
+	margin-left: 10px;
+	margin-right: 10px;
+	font-family: arial,sans-serif;
+	font-size: 13px;
+	text-decoration: none;
+	color: #000000;
+}
+.ls-inf {
+	margin-left: 10px;
+	margin-right: 125px;
+	font-family: arial,sans-serif;
+	font-size: 13px;
+	text-decoration: none;
+	color: #000000;
+}
 
 
