@@ -21,3 +21,5 @@
     iii. Javascript Basics:
     
             Project Euler - Problem 1: Multiples of 3 and 5 [X]
+
+            Project Euler (Optional) - Problem 2: Fibbonacci Equal Numbers []
