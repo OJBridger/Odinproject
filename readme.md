@@ -14,6 +14,6 @@
             
     ii. Project HTML/CSS:
     
-            Build the Google Home Page []
+            Build the Google Home Page [X]
             
-        	Build the Google Results Page []
+        	Build the Google Results Page [X]
