@@ -6,7 +6,7 @@
 
 **The Front End**
 
-    i. HTML and CSS Basics
+    i. HTML and CSS Basics:
     
         Assignment 3
         
