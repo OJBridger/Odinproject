@@ -4,34 +4,25 @@
 
 All the code for the applicable projects on the OdinProject web development course will be added to my OdinProject repository.
 This Readme will also show the progress I've made through the course.
+If a section has no entries for code, it means that the course was either on another interactive platform, or had no code aspect to it.
 
 ### 1. Introduction to Web Development
-
-    No coursework
 
 ### 2. Web Dev 101
 
 **The Basics**
 
-    No Coursework
-
 **Git Basics**
-
-    No Coursework
 
 **The Front End**
 
 1. Introduction to the Front End
-
-    No Coursework
 
 2. HTML and CSS Basics:
     
     Build the Android Logo [X]
     
 3. Developer Tools
-
-    No Coursework
             
 4. Project: HTML/CSS:
     
