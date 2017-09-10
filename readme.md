@@ -21,23 +21,31 @@ This Readme will also show the progress I've made through the course.
 
 **The Front End**
 
-1. HTML and CSS Basics:
+1. Introduction to the Front End
+
+    No Coursework
+
+2. HTML and CSS Basics:
     
-    Build the Android Logo [X]  
+    Build the Android Logo [X]
+    
+3. Developer Tools
+
+    No Coursework
             
-2. Project: HTML/CSS:
+4. Project: HTML/CSS:
     
     Build the Google Home Page [X]
         
     Build the Google Results Page [X]
            
-3. Javascript Basics:
+5. Javascript Basics:
     
     Project Euler - Problem 1: Multiples of 3 and 5 [X]
 
     Project Euler (Optional) - Problem 2: Fibbonacci Equal Numbers [X]
 
-4. Project: Javascript and Jquery:
+6. Project: Javascript and Jquery:
 
     Etch-a-sketch project []
         
