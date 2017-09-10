@@ -1,6 +1,6 @@
 # Odinproject
 
-** Over view
+## Over view
 
 All the code for the applicable projects on the OdinProject web development course will be added to my Odin Project repository. 
 
