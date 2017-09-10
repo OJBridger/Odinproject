@@ -2,17 +2,18 @@
 
 ## Over view
 
-All the code for the applicable projects on the OdinProject web development course will be added to my OdinProject repository. 
+All the code for the applicable projects on the OdinProject web development course will be added to my OdinProject repository.
+This Readme will also show the progress I've made through the course.
 
 ### Web Dev 101
 
 **The Front End**
 
-    i.HTML and CSS Basics:
+    i. HTML and CSS Basics:
     
         Build the Android Logo [X]  
             
-    ii.Project: HTML/CSS:
+    ii. Project: HTML/CSS:
     
         Build the Google Home Page [X]
         
