@@ -12,7 +12,7 @@ All the code for the applicable projects on the OdinProject web development cour
     
         Build the Android Logo [X]  
             
-    . Project: HTML/CSS:
+    ii. Project: HTML/CSS:
     
         Build the Google Home Page [X]
         
@@ -27,6 +27,16 @@ All the code for the applicable projects on the OdinProject web development cour
     iv. Project: Javascript and Jquery:
 
         Etch-a-sketch project []
+        
+**The Back End**
+
+**Web Development Frameworks**
+
+**Pair Programming**
+
+**Additional Important Topics**
+
+**Tying it all Together**
         
         
 ### Ruby Programming
