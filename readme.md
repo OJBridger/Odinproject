@@ -2,9 +2,7 @@
 
 ## Over view
 
-All the code for the applicable projects on the OdinProject web development course will be added to my Odin Project repository. 
-
-## Projects
+All the code for the applicable projects on the OdinProject web development course will be added to my OdinProject repository. 
 
 ### Web Dev 101
 
@@ -29,3 +27,15 @@ All the code for the applicable projects on the OdinProject web development cour
     iv. Project: Javascript and Jquery:
 
     	Etch-a-sketch project []
+        
+        
+### Ruby Programming
+
+### Ruby on Rails
+
+### HTML5 and CSS3
+
+### Javascript and jQuery
+
+### Getting hired as a Web Developer
+
