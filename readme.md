@@ -14,7 +14,8 @@ All the code for the applicable projects on the OdinProject web development cour
             
     ii. Project: HTML/CSS:
     
-        Build the Google Home Page [X]   
+        Build the Google Home Page [X]
+        
     	Build the Google Results Page [X]
            
     iii. Javascript Basics:
