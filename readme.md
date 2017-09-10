@@ -26,4 +26,4 @@
 
     iv. Project: Javascript and Jquery:
 
-    		Etch-a-sketch project []
+    	Etch-a-sketch project []
