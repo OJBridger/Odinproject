@@ -8,11 +8,11 @@ All the code for the applicable projects on the OdinProject web development cour
 
 **The Front End**
 
-    i. HTML and CSS Basics:
+    i.HTML and CSS Basics:
     
         Build the Android Logo [X]  
             
-    ii. Project: HTML/CSS:
+    ii.Project: HTML/CSS:
     
         Build the Google Home Page [X]
         
