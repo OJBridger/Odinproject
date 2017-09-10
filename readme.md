@@ -8,6 +8,20 @@ If a section has no entries for code, it means that the course was either on ano
 
 ### 1. Introduction to Web Development
 
+**What a Web Developer does**
+
+**Web Development Jobs and Careers**
+
+**Tools of the Trade**
+
+**Web Development Communities**
+
+**The Best Web Developers**
+
+**Getting Hired as a Web Developer**
+
+**Conclusion**
+
 ### 2. Web Dev 101
 
 **The Basics**
