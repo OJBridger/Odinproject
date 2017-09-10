@@ -26,7 +26,7 @@ All the code for the applicable projects on the OdinProject web development cour
 
     iv. Project: Javascript and Jquery:
 
-    	Etch-a-sketch project []
+    Etch-a-sketch project []
         
         
 ### Ruby Programming
