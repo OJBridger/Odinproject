@@ -65,13 +65,13 @@ If a section has no entries for code, it means that the course was either on ano
 **Tying it all Together**
         
         
-## Ruby Programming
+## 3. Ruby Programming
 
-## Ruby on Rails
+## 4. Ruby on Rails
 
-## HTML5 and CSS3
+## 5. HTML5 and CSS3
 
-## Javascript and jQuery
+## 6. Javascript and jQuery
 
-## Getting hired as a Web Developer
+## 7. Getting hired as a Web Developer
 
