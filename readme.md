@@ -12,7 +12,7 @@ All the code for the applicable projects on the OdinProject web development cour
     
         Build the Android Logo [X]  
             
-    ii. Project: HTML/CSS:
+    . Project: HTML/CSS:
     
         Build the Google Home Page [X]
         
