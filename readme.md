@@ -5,7 +5,15 @@
 All the code for the applicable projects on the OdinProject web development course will be added to my OdinProject repository.
 This Readme will also show the progress I've made through the course.
 
-### Web Dev 101
+### 1. Introduction to Web Development
+
+    No coursework
+
+### 2. Web Dev 101
+
+**The Basics**
+
+**Git Basics**
 
 **The Front End**
 
