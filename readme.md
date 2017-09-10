@@ -45,12 +45,14 @@ If a section has no entries for code, it means that the course was either on ano
     Build the Google Results Page [X]
            
 5. Javascript Basics:
-    
+
     Project Euler - Problem 1: Multiples of 3 and 5 [X]
 
     Project Euler (Optional) - Problem 2: Fibbonacci Equal Numbers [X]
+    
+6. jQuery Basics:
 
-6. Project: Javascript and Jquery:
+7. Project: Javascript and Jquery:
 
     Etch-a-sketch project []
         
