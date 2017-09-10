@@ -8,7 +8,7 @@
 var result = 0;
 
 for (var i = 0; i < 1000; i++){
- if (i % 3 == 0 || i % 5 == 0) sum += i; 
+	if (i % 3 == 0 || i % 5 == 0) sum += i; 
 }
 console.log(result);
 
@@ -21,4 +21,27 @@ console.log(result);
 
 // By considering the terms in the Fibonacci sequence whose values do not exceed four million, 
 // find the sum of the even-valued terms.
+
+var evenSum = 0;
+var limit = 1;
+var fib = [1, 2];
+var evenFib = [];
+
+for (var i = 1; i <= limit; i++) {
+	var num = fib[i] + fib[i - 1];
+  
+	if ((num % 2) === 0) {
+    	evenSum = evenSum + num;
+    	evenFib.push(num);
+ 	} 
+  
+  	if (num <= 4000000) {
+    	fib.push(num);
+    	limit++;
+  	}
+}
+
+console.log('Sum of even Fibconacci numbers: ' + evenSum + '\n');
+
+
 
