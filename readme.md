@@ -13,6 +13,8 @@ This Readme will also show the progress I've made through the course.
 
 **The Basics**
 
+No Coursework
+
 **Git Basics**
 
 **The Front End**
