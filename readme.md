@@ -34,7 +34,7 @@ If a section has no entries for code, it means that the course was either on ano
 
 2. HTML and CSS Basics:
     
-    Build the Android Logo [X]
+    Build the Android Logo [X] <a href="https://github.com/OJBridger/Odinproject/tree/master/Web%20Dev%20101/Android%20Logo">Here!</a>
     
 3. Developer Tools
             
