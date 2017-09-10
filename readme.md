@@ -6,7 +6,7 @@ All the code for the applicable projects on the OdinProject web development cour
 This Readme will also show the progress I've made through the course.
 If a section has no entries for code, it means that the course was either on another interactive platform, or had no code aspect to it.
 
-### 1. Introduction to Web Development
+## 1. Introduction to Web Development
 
 **What a Web Developer does**
 
@@ -22,7 +22,7 @@ If a section has no entries for code, it means that the course was either on ano
 
 **Conclusion**
 
-### 2. Web Dev 101
+## 2. Web Dev 101
 
 **The Basics**
 
@@ -65,13 +65,13 @@ If a section has no entries for code, it means that the course was either on ano
 **Tying it all Together**
         
         
-### Ruby Programming
+## Ruby Programming
 
-### Ruby on Rails
+## Ruby on Rails
 
-### HTML5 and CSS3
+## HTML5 and CSS3
 
-### Javascript and jQuery
+## Javascript and jQuery
 
-### Getting hired as a Web Developer
+## Getting hired as a Web Developer
 
