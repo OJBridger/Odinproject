@@ -1,17 +1,66 @@
+
+// Default Grid Size
+var dimensions = 16;
+
+// Page Ready Initiate
 $(document).ready(function() {
-	for(i = 1; i <= 256; i++) {
-		$('.container').append('<div></div>');
-		console.log('Div ' + i + ' Appended');
-		$('.container').find('div').addClass('default');
-	}
-	console.log('All Divs allocated Class');
 
+	// When Reset button is activated
+    $('#reset-button').click(function() {
+	$('.block').css('background-color', '#fff');
+	
+	// User choices
+	dimensions = prompt("Enter a number between 1 and 64", "");
+	colour = prompt("Enter a colour");
+	
+	// Input choice checking
+	if (isNaN(dimensions))
+	    alert("Please enter an actual number");
+	else if (dimensions < 1)
+	    dimensions = 1;
+	else if (dimensions > 64)
+	    dimensions = 64;
+	
+	// Math on user input to get grid
+	var size = 512 / dimensions;
+	
+	// Calling reset function to remove all '.block' divs and to re-propagate
+	reset();
 
-	$('.container').find('div').on('mouseenter', function() {
-		$(this).addClass('highlighted');
-	});
-	$('.container').find('div').on('mouseleave', function() {
-		$(this).removeClass('highlighted');
-		$(this).addClass('trail');
-	});
+	// Allocating '.block' <div> style data
+	$('.block').css({'width':size + 'px', 'height':size + 'px'});
+
+	// Hover trail logic	
+	$('.block').hover(function() {
+	    $(this).css('background-color', colour);
+		});
+    });
+
+    $('.block').hover(function() {
+		$(this).css('background-color', colour);
+    });
+
+    // Calling propagateBlock function
+    propagateBlocks();
+
 });
+
+// Function to load blocks into grid
+var propagateBlocks = function() {
+
+    for (var i = 0; i < dimensions; i++)
+    {
+	for (var j = 0; j < dimensions; j++)
+	{
+	    $('.grid').append("<div class='block'></div>");
+	}
+
+    }
+
+}
+
+// Reset function
+var reset = function() {
+    $('.block').remove();
+    propagateBlocks();
+}
