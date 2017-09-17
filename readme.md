@@ -61,21 +61,26 @@ If a section has no entries for code, it means that the course was either on ano
             
 4. Project: HTML/CSS:
     
-        Build the Google Home Page [X] <a href="https://github.com/OJBridger/Odinproject/tree/master/Web%20Dev%20101/Google%20Home%20Page/Home%20Page">Here!</a>
+        Build the Google Home Page [X] 
+    <a href="https://github.com/OJBridger/Odinproject/tree/master/Web%20Dev%20101/Google%20Home%20Page/Home%20Page">Here!</a>
         
-        Build the Google Results Page [X] <a href="https://github.com/OJBridger/Odinproject/tree/master/Web%20Dev%20101/Google%20Home%20Page/Results%20Page">And here!</a>
+        Build the Google Results Page [X] 
+    <a href="https://github.com/OJBridger/Odinproject/tree/master/Web%20Dev%20101/Google%20Home%20Page/Results%20Page">And here!</a>
            
 5. Javascript Basics:
 
-        Project Euler - Problem 1: Multiples of 3 and 5 [X] <a href="https://github.com/OJBridger/Odinproject/blob/master/Web%20Dev%20101/Javascript%20Basics/multiples.js">Here's the code</a>
+        Project Euler - Problem 1: Multiples of 3 and 5 [X] 
+    <a href="https://github.com/OJBridger/Odinproject/blob/master/Web%20Dev%20101/Javascript%20Basics/multiples.js">Here's the code</a>
 
-        Project Euler (Optional) - Problem 2: Fibbonacci Equal Numbers [X] <a href="https://github.com/OJBridger/Odinproject/blob/master/Web%20Dev%20101/Javascript%20Basics/fibonacci.js">Here's the code</a>
+        Project Euler (Optional) - Problem 2: Fibbonacci Equal Numbers [X] 
+    <a href="https://github.com/OJBridger/Odinproject/blob/master/Web%20Dev%20101/Javascript%20Basics/fibonacci.js">Here's the code</a>
     
 6. jQuery Basics
 
 7. Project: Javascript and Jquery:
 
-        Etch-a-sketch project [X] <a href="https://github.com/OJBridger/Odinproject/tree/master/Web%20Dev%20101/Etchasketch">Check out my work here</a>
+        Etch-a-sketch project [X] 
+    <a href="https://github.com/OJBridger/Odinproject/tree/master/Web%20Dev%20101/Etchasketch">Check out my work here</a>
         
 **The Back End**
 
