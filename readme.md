@@ -50,7 +50,7 @@ If a section has no entries for code, it means that the course was either on ano
 
     Project Euler (Optional) - Problem 2: Fibbonacci Equal Numbers [X] <a href="https://github.com/OJBridger/Odinproject/blob/master/Web%20Dev%20101/Javascript%20Basics/fibonacci.js">Here's the code</a>
     
-6. jQuery Basics:
+6. jQuery Basics
 
 7. Project: Javascript and Jquery:
 
