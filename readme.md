@@ -54,7 +54,7 @@ If a section has no entries for code, it means that the course was either on ano
 
 7. Project: Javascript and Jquery:
 
-    Etch-a-sketch project []
+    Etch-a-sketch project [X] <a href="https://github.com/OJBridger/Odinproject/tree/master/Web%20Dev%20101/Etchasketch">Check out my work here</a>
         
 **The Back End**
 
