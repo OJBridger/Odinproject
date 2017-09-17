@@ -26,7 +26,27 @@ If a section has no entries for code, it means that the course was either on ano
 
 **The Basics**
 
+1. How this Course Will Work
+
+2. Gearing Up
+
+3. Join the Odin Community
+
+4. How Does the Web Work?
+
+5. Command Line Basics
+
+6. Terms to Know
+
+7. Project: Installations
+
 **Git Basics**
+
+1. Introduction to Git
+
+2. Git Basics
+
+3. Project: Practicing Git Basics
 
 **The Front End**
 
@@ -58,14 +78,47 @@ If a section has no entries for code, it means that the course was either on ano
         
 **The Back End**
 
+1. Introduction to the Back End
+
+2. Ruby Basics
+
+3. Testing Basics
+
+4. Project: Ruby
+
+5. Databases
+
 **Web Development Frameworks**
+
+1. Introduction to Frameworks
+
+2. Ruby on Rails Basics
+
+3. Project: Ruby on Rails
 
 **Pair Programming**
 
+1. Introduction to Pair Programming
+
+2. Preparing to Remote Pair
+
+3. Project: Pairing Project
+
 **Additional Important Topics**
 
+1. The Cloud, Hosting, and Software as a Service (SAAS)
+
+2. Security, SSL, and Best Practices
+
+3. FTP Basics
+
 **Tying it all Together**
-        
+
+1. How are Websites Built in the Real World
+
+2. Principles of Good Programming
+
+3. Conclusion
         
 ## 3. Ruby Programming
 
