@@ -92,8 +92,12 @@ If a section has no entries for code, it means that the course was either on ano
     <a href="https://github.com/OJBridger/Odinproject/blob/master/Web%20Dev%20101/Ruby%20Basics/C1problemset.rb">Here!</a>
 
         Chapter 2 [X]
+        
+    No work to link here
 
         Chapter 3 [X]
+        
+    No work to link here     
 
         Chapter 4 [X]
     <a href="https://github.com/OJBridger/Odinproject/blob/master/Web%20Dev%20101/Ruby%20Basics/C4problemset.rb">Here!</a>
@@ -112,7 +116,9 @@ If a section has no entries for code, it means that the course was either on ano
 
         Chapter 9 [X]
     <a href="https://github.com/OJBridger/Odinproject/blob/master/Web%20Dev%20101/Ruby%20Basics/C9problemset.rb">Here!</a>
-    <a href="https://github.com/OJBridger/Odinproject/blob/master/Web%20Dev%20101/Ruby%20Basics/C9problemset2.rb">Here As Well!</a>    
+    
+    <a href="https://github.com/OJBridger/Odinproject/blob/master/Web%20Dev%20101/Ruby%20Basics/C9problemset2.rb">Here As Well!</a>
+    
     <a href="https://github.com/OJBridger/Odinproject/blob/master/Web%20Dev%20101/Ruby%20Basics/C9problemset3.rb">Here As Well!</a>
 
         Chapter 10 [X]
