@@ -89,7 +89,41 @@ If a section has no entries for code, it means that the course was either on ano
 2. Ruby Basics
 
         Chapter 1 [X]
-   <a href="https://github.com/OJBridger/Odinproject/blob/master/Web%20Dev%20101/Ruby%20Basics/C1problemset.rb">Here!</a>
+    <a href="https://github.com/OJBridger/Odinproject/blob/master/Web%20Dev%20101/Ruby%20Basics/C1problemset.rb">Here!</a>
+
+        Chapter 2 [X]
+
+        Chapter 3 [X]
+
+        Chapter 4 [X]
+    <a href="https://github.com/OJBridger/Odinproject/blob/master/Web%20Dev%20101/Ruby%20Basics/C4problemset.rb">Here!</a>
+
+        Chapter 5 [X]
+    <a href="https://github.com/OJBridger/Odinproject/blob/master/Web%20Dev%20101/Ruby%20Basics/C5problemset.rb">Here!</a>
+
+        Chapter 6 [X]
+    <a href="https://github.com/OJBridger/Odinproject/blob/master/Web%20Dev%20101/Ruby%20Basics/C6problemset.rb">Here!</a>
+
+        Chapter 7 [X]
+    <a href="https://github.com/OJBridger/Odinproject/blob/master/Web%20Dev%20101/Ruby%20Basics/C7problemset.rb">Here!</a>
+
+        Chapter 8 [X]
+    <a href="https://github.com/OJBridger/Odinproject/blob/master/Web%20Dev%20101/Ruby%20Basics/C8problemset.rb">Here!</a>
+
+        Chapter 9 [X]
+    <a href="https://github.com/OJBridger/Odinproject/blob/master/Web%20Dev%20101/Ruby%20Basics/C9problemset.rb">Here!</a>
+    <a href="https://github.com/OJBridger/Odinproject/blob/master/Web%20Dev%20101/Ruby%20Basics/C9problemset2.rb">Here As Well!</a>    
+    <a href="https://github.com/OJBridger/Odinproject/blob/master/Web%20Dev%20101/Ruby%20Basics/C9problemset3.rb">Here As Well!</a>
+
+        Chapter 10 [X]
+    <a href="https://github.com/OJBridger/Odinproject/blob/master/Web%20Dev%20101/Ruby%20Basics/C10problemset.rb">Here!</a>
+
+        Project Euler Multiples [X]
+    <a href="https://github.com/OJBridger/Odinproject/blob/master/Web%20Dev%20101/Ruby%20Basics/multiples.rb">Here!</a>
+
+        Project Euler Fibonacci [X]
+    <a href="https://github.com/OJBridger/Odinproject/blob/master/Web%20Dev%20101/Ruby%20Basics/fibonacci.rb">Here!</a>
+
 
 3. Testing Basics
 
