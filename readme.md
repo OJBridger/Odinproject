@@ -88,6 +88,20 @@ If a section has no entries for code, it means that the course was either on ano
 
 2. Ruby Basics
 
+        Chapter 1 [X]
+   <a href="https://github.com/OJBridger/Odinproject/blob/master/Web%20Dev%20101/Ruby%20Basics/C1problemset.rb"></a>
+        Chapter 2 [X]
+        Chapter 3 [X]
+        Chapter 4 [X]
+        Chapter 5 [X]
+        Chapter 6 [X]
+        Chapter 7 [X]
+        Chapter 8 [X]
+        Chapter 9 [X]
+        Chapter 10 [X]
+        Project Euler Multiples [X]
+        Project Euler Fibonacci [X]
+
 3. Testing Basics
 
 4. Project: Ruby
