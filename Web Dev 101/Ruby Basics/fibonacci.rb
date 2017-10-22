@@ -8,8 +8,24 @@
 # By considering the terms in the Fibonacci sequence whose values do not exceed four million, 
 # find the sum of the even-valued terms.
 
+counter = 0
 evenSum = 0 
 limit = 1
 fib = [1, 2]
 evenFib = []
+
+while counter <= limit
+	num = fib[1] + fib[counter -1]
+
+	if num % 2 == 0
+		evenFib.push(num)
+		evenSum = evenSum + num
+		counter += 1
+	elsif num <= 4000000 
+		fib.push(num)
+		counter += 1
+	end
+end
+
+puts 'Sum of even Fibconacci numbers: ' + evenSum.to_s + '\n'
 
