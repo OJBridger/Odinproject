@@ -148,6 +148,9 @@ If a section has no entries for code, it means that the course was either on ano
 
 3. Project: Ruby on Rails
 
+        Project: Ruby on Rails: [X]
+   <a href="https://github.com/OJBridger/Railsproject">I got as far as I could with this, but the tutorial site went down</a>
+
 **Pair Programming**
 
 1. Introduction to Pair Programming
