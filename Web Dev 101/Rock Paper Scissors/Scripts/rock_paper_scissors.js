@@ -1,6 +1,36 @@
 //Game
 function game() {
+	const counter = 5;
+	let playWins = 0;
+	let compWins = 0;
 
+	for (let i = 0; i < counter; i++) {
+		const playerSelection = playerPlay();
+		const computerSelection = computerPlay();
+		console.log('Test')
+		let round = playRound(playerSelection, computerSelection);
+		if (round == 'wins') {
+			console.log('You won')
+			playWins++;
+		}
+		else if (round = 'loses') {
+			console.log('You Lost')
+			compWins++;
+		}
+		else { 
+			console.log('Tie')
+		}
+	}
+
+	if (playWins > compWins) {
+		console.log('You win the game')
+	}
+	else if (compWins > playWins) {
+		console.log('You lost the game')
+	}
+	else {
+		console.log('Its a tie overall')
+	}
 }
 
 //Round 
@@ -60,5 +90,3 @@ function playerPlay() {
     } 
     return answer;
 }
-
-playRound(playerPlay, computerPlay)
