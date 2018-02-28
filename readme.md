@@ -81,7 +81,31 @@ If a section has no entries for code, it means that the course was either on ano
 
         Etch-a-sketch project [X] 
     <a href="https://github.com/OJBridger/Odinproject/tree/master/Web%20Dev%20101/Etchasketch">Check out my work here</a>
-        
+
+**Javascript Basics**  
+
+1. Fundamentals Part 1
+
+2. Fundamentals Part 2
+
+3. Developer Tools 2
+
+4. Fundamentals Part 3
+
+5. Project: Rock Paper Scissors
+
+6. Clean Code
+
+7. Fundamentals Part 4
+
+8. Dom Manipulation
+
+9. Project: Etch-A-Sketch
+
+10. Fundamentals Part 5
+
+11. Project: Calculator
+
 **The Back End**
 
 1. Introduction to the Back End
