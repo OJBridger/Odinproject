@@ -102,7 +102,7 @@ If a section has no entries for code, it means that the course was either on ano
 
 5. Project: Rock Paper Scissors
 
-        Rock Paper Scissorts [X]
+        Rock Paper Scissors [X]
     <a href="https://github.com/OJBridger/Odinproject/tree/master/Web%20Dev%20101/Rock%20Paper%20Scissors">Work Here!</a>
 
 6. Clean Code
