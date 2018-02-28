@@ -86,17 +86,32 @@ If a section has no entries for code, it means that the course was either on ano
 
 1. Fundamentals Part 1
 
+    No code to link
+
 2. Fundamentals Part 2
+
+    Repl.it practice work: https://repl.it/community/classrooms/34425
 
 3. Developer Tools 2
 
+    No code to link
+
 4. Fundamentals Part 3
+
+    Local Work
 
 5. Project: Rock Paper Scissors
 
+        Rock Paper Scissorts [X]
+    <a href="https://github.com/OJBridger/Odinproject/tree/master/Web%20Dev%20101/Rock%20Paper%20Scissors">Work Here!</a>
+
 6. Clean Code
 
+    No code for this lesson
+
 7. Fundamentals Part 4
+
+    <a href="https://github.com/OJBridger/Odinproject/tree/master/Web%20Dev%20101/Rock%20Paper%20Scissors">Cloned from this repo!</a>
 
 8. Dom Manipulation
 
