@@ -1,12 +1,4 @@
 //Game
-
-
-
-//Play button runs function Game(); when pressed.
-document.getElementById('play').onclick = function() {
-	game();
-}
-
 function game() {
 	const counter = 5;
 	let playWins = 0;
