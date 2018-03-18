@@ -1,22 +1,9 @@
-//Game
-
-//Play button runs function Game(); when pressed.
+//Button Logic
 document.getElementById('play').onclick = function() {
 	game();
 };
 
-document.getElementById('rock').onclick = function() {
-	alert('Rock Selected');
-};
-
-document.getElementById('paper').onclick = function() {
-	alert('Paper Selected');
-};
-
-document.getElementById('scissors').onclick = function() {
-	alert('Scissors Selected');
-};
-
+//Game Logic
 function game() {
 	const counter = 5;
 	let playWins = 0;
@@ -25,7 +12,8 @@ function game() {
 	for (let i = 0; i < counter; i++) {
 		const playerSelection = playerPlay();
 		const computerSelection = computerPlay();
-		console.log('Test')
+		console.log("Player wins " + playWins)
+		console.log("Computer wins " + compWins)
 		let round = playRound(playerSelection, computerSelection);
 		if (round == 'wins') {
 			console.log('You won')
@@ -49,7 +37,7 @@ function game() {
 	else {
 		console.log('Its a tie overall')
 	}
-}
+};
 
 //Round 
 function playRound(playerSelection, computerSelection) {
@@ -100,11 +88,28 @@ function computerPlay() {
 
 //Player Choice
 function playerPlay() {
-	let answer = prompt("Rock, Paper or Scissors?");
-	answer = answer.toLowerCase();
-	while (!(answer == 'rock' || answer == 'paper' || answer == 'scissors')) {
-        answer = prompt('Please type either rock, paper, or scissors');
-        answer = answer.toLowerCase();
-    } 
-    return answer;
+
+
+	alert('Please Select')
+
+	document.getElementById('rock').onclick = function() {
+		let selection = ''
+		selection = 'rock'
+		return selection;
+	};
+
+	document.getElementById('paper').onclick = function() {
+		let selection = ''
+		selection = 'paper'
+		return selection;
+	};
+
+	document.getElementById('scissors').onclick = function() {
+		let selection = ''
+		selection = 'scissors'
+		return selection;''
+	};
 }
+
+//Rewrite the Playround function to ask for the playePLay() selection before starting a round against AI
+
