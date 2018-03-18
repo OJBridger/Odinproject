@@ -1,11 +1,21 @@
 //Game
 
-
-
 //Play button runs function Game(); when pressed.
 document.getElementById('play').onclick = function() {
 	game();
-}
+};
+
+document.getElementById('rock').onclick = function() {
+	alert('Rock Selected');
+};
+
+document.getElementById('paper').onclick = function() {
+	alert('Paper Selected');
+};
+
+document.getElementById('scissors').onclick = function() {
+	alert('Scissors Selected');
+};
 
 function game() {
 	const counter = 5;
