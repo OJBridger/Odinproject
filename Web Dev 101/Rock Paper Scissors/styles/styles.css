@@ -11,18 +11,6 @@
 	text-align: center;
 }
 
-.start-button {
-	margin-right: 25px;
-	height: 50px;
-	width: 100px;
-	background-color: pink;
-	position: relative;
-	text-align: center;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 25px;	
-}
-
 .game-commands {
 	display: inline-flex;
 	margin-left: 39%;

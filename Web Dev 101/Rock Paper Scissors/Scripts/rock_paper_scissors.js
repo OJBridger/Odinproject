@@ -1,115 +1,62 @@
 //Button Logic
-document.getElementById('play').onclick = function() {
-	game();
+document.getElementById('rock').onclick = function() {
+	playerSelection = 'rock';
+	playRound(playerSelection);
 };
 
-//Game Logic
-function game() {
-	const counter = 5;
-	let playWins = 0;
-	let compWins = 0;
-
-	for (let i = 0; i < counter; i++) {
-		const playerSelection = playerPlay();
-		const computerSelection = computerPlay();
-		console.log("Player wins " + playWins)
-		console.log("Computer wins " + compWins)
-		let round = playRound(playerSelection, computerSelection);
-		if (round == 'wins') {
-			console.log('You won')
-			playWins++;
-		}
-		else if (round = 'loses') {
-			console.log('You Lost')
-			compWins++;
-		}
-		else { 
-			console.log('Tie')
-		}
-	}
-
-	if (playWins > compWins) {
-		console.log('You win the game')
-	}
-	else if (compWins > playWins) {
-		console.log('You lost the game')
-	}
-	else {
-		console.log('Its a tie overall')
-	}
+document.getElementById('paper').onclick = function() {
+	playerSelection = 'paper';
+	playRound(playerSelection);
 };
 
-//Round 
-function playRound(playerSelection, computerSelection) {
+document.getElementById('scissors').onclick = function() {
+	playerSelection = 'scissors';
+	playRound(playerSelection);
+};
+
+//Round Logic
+function playRound(playerSelection) {
+
+	function computerPlay() {
+		let scope = Math.random()
+		if (scope >= 0.66) {
+			return 'rock';
+		}
+		else if (scope >= 0.33) {
+			return 'paper';
+		}
+		else
+			return 'scissors';
+	};
+
     if (playerSelection == 'rock') {
-        if (computerSelection == 'scissors') {
-            return 'wins';
-        } else if (computerSelection == 'paper') {
-            return 'loses';
+        if (computerPlay() == 'scissors') {
+            console.log('PcLose');
+        } else if (computerPlay() == 'paper') {
+            console.log('PcWin');
         } else {
-            return 'ties';
+            console.log('PcDraw');
         }
     }
 
     if (playerSelection == 'paper') {
-        if (computerSelection == 'rock') {
-            return 'wins';
-        } else if (computerSelection == 'scissors') {
-            return 'loses';
+        if (computerPlay() == 'rock') {
+            console.log('PCWin');
+        } else if (computerPlay() == 'scissors') {
+            console.log('PCLose');
         } else {
-            return 'ties';
+            console.log('PCDraw');
         }
     }
 
     if (playerSelection == 'scissors') {
-        if (computerSelection == 'paper') {
-            return 'wins';
-        } else if (computerSelection == 'rock') {
-            return 'loses'
+        if (computerPlay() == 'paper') {
+            console.log('PCWin');
+        } else if (computerPlay() == 'rock') {
+            console.log('PCLose');
         } else {
-            return 'ties';
+            console.log('PCDraw');
         }
     }
 }
-
-
-//Computer Choice
-function computerPlay() {
-	let scope = Math.random()
-	if (scope >= 0.66) {
-		return 'rock';
-	}
-	else if (scope >= 0.33) {
-		return 'paper';
-	}
-	else
-		return 'scissors';
-}
-
-//Player Choice
-function playerPlay() {
-
-
-	alert('Please Select')
-
-	document.getElementById('rock').onclick = function() {
-		let selection = ''
-		selection = 'rock'
-		return selection;
-	};
-
-	document.getElementById('paper').onclick = function() {
-		let selection = ''
-		selection = 'paper'
-		return selection;
-	};
-
-	document.getElementById('scissors').onclick = function() {
-		let selection = ''
-		selection = 'scissors'
-		return selection;''
-	};
-}
-
-//Rewrite the Playround function to ask for the playePLay() selection before starting a round against AI
 
