@@ -2,17 +2,29 @@
 document.getElementById('rock').onclick = function() {
 	playerSelection = 'rock';
 	playRound(playerSelection);
+	showResults();
 };
 
 document.getElementById('paper').onclick = function() {
 	playerSelection = 'paper';
 	playRound(playerSelection);
+	showResults();
 };
 
 document.getElementById('scissors').onclick = function() {
 	playerSelection = 'scissors';
 	playRound(playerSelection);
+	
 };
+
+document.getElementById('results').onclick = function() {
+	showResults();
+};
+
+//Scoring Logic
+let compScore = 0;
+let playerScore = 0;
+let content = document.createElement('div');
 
 //Round Logic
 function playRound(playerSelection) {
@@ -31,32 +43,51 @@ function playRound(playerSelection) {
 
     if (playerSelection == 'rock') {
         if (computerPlay() == 'scissors') {
-            console.log('PcLose');
+            playerScore += 1;
         } else if (computerPlay() == 'paper') {
-            console.log('PcWin');
+            compScore += 1;
         } else {
-            console.log('PcDraw');
         }
     }
 
     if (playerSelection == 'paper') {
         if (computerPlay() == 'rock') {
-            console.log('PCWin');
+            compScore += 1;
         } else if (computerPlay() == 'scissors') {
-            console.log('PCLose');
+            playerScore += 1;
         } else {
-            console.log('PCDraw');
         }
     }
 
     if (playerSelection == 'scissors') {
         if (computerPlay() == 'paper') {
-            console.log('PCWin');
+            compScore += 1;
         } else if (computerPlay() == 'rock') {
-            console.log('PCLose');
+            playerScore += 1;
         } else {
-            console.log('PCDraw');
         }
     }
+    return playerScore
+    return compScore
 }
+
+
+//DOM Insertion for results
+function showResults() {
+
+	const container = document.querySelector('#resultsContainer');
+
+	content.classList.add('content');
+	content.textContent = 'Results: ' + 'AI: ' + compScore + ' Player: ' + playerScore;
+
+	container.appendChild(content);
+}
+
+
+
+
+
+
+
+
 
