@@ -18,3 +18,7 @@ function sumDivide(a, b) {
 function operate(func, num1, num2) {
 	return func(num1, num2)
 }
+
+document.getElementById().onclick = function() {
+
+};
