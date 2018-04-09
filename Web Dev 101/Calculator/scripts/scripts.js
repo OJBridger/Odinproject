@@ -18,80 +18,73 @@ function sumDivide(a, b) {
 function operate(func, num1, num2) {
 	return func(num1, num2)
 }
-//Variable
-let displayVariable = 0;
+//Variables
+let displayVariableA = 0;
+let displayVariableB = 0;
+let selectedOperator = '';
 //Logic for populating the display box
 function showResult() {
-
 	const displayBox = document.querySelector("#displayVarible");
 	displayBox.textContent = displayVariable
-
 };
-
-
+//
+function computedResult() {
+	selectedOperator(displayVariableA, displayVariableB)
+};
 //Button Logic
-document.getElementById('numBut1').onclick = function() {
-	alert('Test');
-};
+document.getElementById('numBut1').onclick =      function() {
 
-document.getElementById('numBut2').onclick = function() {
-	alert('Test');
 };
+document.getElementById('numBut2').onclick =      function() {
 
-document.getElementById('numBut3').onclick = function() {
-	alert('Test');
 };
+document.getElementById('numBut3').onclick =      function() {
 
-document.getElementById('numBut4').onclick = function() {
-	alert('Test');
 };
+document.getElementById('numBut4').onclick =      function() {
 
-document.getElementById('numBut5').onclick = function() {
-	alert('Test');
 };
+document.getElementById('numBut5').onclick =      function() {
 
-document.getElementById('numBut6').onclick = function() {
-	alert('Test');
 };
+document.getElementById('numBut6').onclick =      function() {
 
-document.getElementById('numBut7').onclick = function() {
-	alert('Test');
 };
+document.getElementById('numBut7').onclick =      function() {
 
-document.getElementById('numBut8').onclick = function() {
-	alert('Test');
 };
+document.getElementById('numBut8').onclick =      function() {
 
-document.getElementById('numBut9').onclick = function() {
-	alert('Test');
 };
+document.getElementById('numBut9').onclick =      function() {
 
-document.getElementById('numBut0').onclick = function() {
-	alert('Test');
 };
+document.getElementById('numBut0').onclick =      function() {
 
-document.getElementById('numButPlus').onclick = function() {
-	alert('Test');
+}; 
+document.getElementById('numButPlus').onclick =   function() {
+	selectedOperator = sumAdd
+	console.log(selectedOperator)
 };
-
-document.getElementById('numButMinus').onclick = function() {
-	alert('Test');
+document.getElementById('numButMinus').onclick =  function() {
+	selectedOperator = sumSubtract
+	console.log(selectedOperator)
 };
-
 document.getElementById('numButDivide').onclick = function() {
-	alert('Test');
+	selectedOperator = sumDivide
+	console.log(selectedOperator)
 };
-
-document.getElementById('numButTimes').onclick = function() {
-	alert('Test');
+document.getElementById('numButTimes').onclick =  function() {
+	selectedOperator = sumMultiply
+	console.log(selectedOperator)
 };
-
-document.getElementById('numButClear').onclick = function() {
-	alert('Test');
+document.getElementById('numButClear').onclick =  function() {
+	displayVariableA = 0;
+	displayVariableB = 0;
+	selectedOperator = '';
 };
-
 document.getElementById('numButEquals').onclick = function() {
-	alert('Test');
+	showResult(computedResult())
 };
 
 
