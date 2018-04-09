@@ -46,3 +46,10 @@ h1 {
 	margin: 5px;
 	text-align: center;
 }
+
+.result {
+	font-size: 32px;
+	color: grey;
+	margin-left: 10%;
+	padding-left: 7px;
+}
