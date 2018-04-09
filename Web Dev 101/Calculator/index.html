@@ -6,44 +6,83 @@
     <title>Calculator</title>
     <link href="styles/styles.css" rel="stylesheet">
 </head>
-<body>
+    <body>
+        <h1>Calculator</h1>
+        <div id="calculator">
+            <div class="top">
+                <span class="erase">
+                    <button type="button" id="clear" value="clear" onclick="btnLogic(this)">Clear</button>
+                    <button type="button" id="delete" value="Backspace" onclick="btnLogic(this)">Delete</button>
+                </span>
+                <div class="screen">
+                    <input type="textfield" name="ans" value="" id="display" readonly>
+                </div>
 
-    <h1 id="title">Calculator</h1>
+                <div class ="keys">
+                    <div class="b">
+                        <button type="button" id="myBtn0" value="0" onclick="btnLogic(this)">0</button>
+                    </div>
+                    <div class="b">
+                        <button type="button" id="myBtn1" value="1" onclick="btnLogic(this)">1</button></div>
+                    <div class="b">
+                        <button type="button" id="myBtn2" value="2" onclick="btnLogic(this)">2</button></div>
+                    <div class="b">
+                        <button type="button" id="myBtn3" value="3" onclick="btnLogic(this)">3</button></div>
+                    <div class="b">
+                        <button type="button" id="myBtn4" value="4" onclick="btnLogic(this)">4</button></div>
+                    <div class="b">
+                        <button type="button" id="myBtn5" value="5" onclick="btnLogic(this)">5</button></div>
+                    <div class="b">
+                        <button type="button" id="myBtn6" value="6" onclick="btnLogic(this)">6</button></div>
+                    <div class="b">
+                        <button type="button" id="myBtn7" value="7" onclick="btnLogic(this)">7</button></div>
+                    <div class="b">
+                        <button type="button" id="myBtn8" value="8" onclick="btnLogic(this)">8</button></div>
+                    <div class="b">
+                        <button type="button" id="myBtn9" value="9" onclick="btnLogic(this)">9</button></div>
+                    <div class="b">
+                        <button type="button" id="decimal" value="." onclick="btnLogic(this)">.</button></div>
 
-    <div class="body">
+                    
+                    <div>
+                        <button type="button" id="myBtn+" value="+" onclick="btnLogic(this)">+</button></div>
+                    <div>
+                        <button type="button" id="myBtn-" value="-" onclick="btnLogic(this)">-</button></div>
+                    <div>
+                        <button type="button" id="myBtn*" value="*" onclick="btnLogic(this)">*</button></div>
+                    <div>
+                        <button type="button" id="myBtn/" value="/" onclick="btnLogic(this)">/</button></div>
+                
+                    <div class="execute">
+                        <button type="button" id="myBtn=" value="=" onclick="btnLogic(this)">=</button></div>
+                </div> 
+                    <p>Use either buttons, or keyboard</p>
+            </div>
+        </div>
+        <div>
+            
+        </div>
+    </body>
 
-        <h4>Numbers</h4>
-        <div class="button" id="numBut1">1</div>
-        <div class="button" id="numBut2">2</div>
-        <div class="button" id="numBut3">3</div>
-        <div class="button" id="numBut4">4</div>
-        <div class="button" id="numBut5">5</div>
-        <div class="button" id="numBut6">6</div>
-        <div class="button" id="numBut7">7</div>
-        <div class="button" id="numBut8">8</div>
-        <div class="button" id="numBut9">9</div>
-        <div class="button" id="numBut0">0</div>
+    <footer>
+        <script type="text/javascript" src="scripts/scripts.js"> 
+        </script> 
+    </footer>
 
-        <h4>Operators</h4>
-        <div class="button" id="numButPlus">+</div>
-        <div class="button" id="numButMinus">-</div>
-        <div class="button" id="numButDivide">/</div>
-        <div class="button" id="numButTimes">*</div>
-        <div class="operateButton" id="numButClear">CL</div>
-        <div class="operateButton" id="numButEquals">=</div>
-        
-    </div>
-
-    <div class="display" id="displayVarible"></div>
+</html> 
 
 
-    <script type="text/javascript" src="scripts/scripts.js"> 
-    </script>
-</body>
-</html>
 
-<!--
-    1. Add #ID to button
-    2. Add onClick functions to each button
-    3. Logic for populating display box
- -->
+
+
+
+
+
+
+
+
+
+
+
+
+
